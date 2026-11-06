@@ -1,0 +1,27 @@
+name: Feature Request
+description: Propose an architecture improvement or new capability
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest an enhancement or architectural addition to the codebase.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What limitation or use case does this feature address?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Architecture / Solution
+      description: Detailed explanation of how this should be designed and implemented.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Considered Alternatives
+      description: Alternative approaches or workarounds evaluated.
